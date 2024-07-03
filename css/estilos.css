@@ -1,0 +1,292 @@
+* {
+	margin: 0px;
+	pad: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../img/marmol.jpeg);
+	
+}
+
+main {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+    background-color: #595240;
+	margin-bottom: 30px;
+}
+
+.logo-header {
+	display: inline;
+	height: 100%;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+nav {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 45%;
+}
+
+.botonera-horizontal li{
+	display: inline-block;
+	vertical-align: middle;
+	list-style: none;
+	margin-right: 60px;
+	font-size: 22px;
+	font-family: 'Anton', sans-serif;
+}
+
+.botonera-horizontal li a {
+	text-decoration: none;
+	color: #F0ECE8;
+}
+
+.botonera-horizontal li a:hover {
+	color: #d1c2b4;
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+}
+
+#mainhome {
+	margin-top: -30px;
+	float: left;
+}
+
+.inicio {
+	width: 100%;
+	float: left;
+}
+
+#uno {
+	width: 57%;
+	height: 550px;
+	float: left;
+	text-align: center;
+}
+
+.logo-izquierda {
+	width: 70%;
+}
+
+.cuadrados {
+	font-family: 'Fascinate Inline', sans-serif;
+	font-size: 18px;
+	width: 100%;
+	text-align: center;
+}
+
+.tatuaje {
+	width: 100%;
+}
+
+.columnas {
+	width: 25%;
+	margin-left: 20px;
+	height: 200px;
+	background-color: #010D2B;
+	color: #F0ECE8;
+	text-align: left;
+	padding: 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.columnas:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.columnas a {
+	color: white;
+}
+
+
+#columna_tres {
+	background-color: transparent;
+	padding: 0px;
+}
+
+#columna_tres:hover {
+	text-decoration: none;
+}
+
+
+#columna_tres div {
+	background-color: #010D2B;
+	width: 100%;
+	padding: 15px;
+	height: 45%;
+}
+
+#columna_tres div:hover {
+	text-decoration: underline;
+}
+
+#tres_arriba {
+	margin-bottom: 10%;
+}
+
+#dos {
+	width: 43%;
+	background-color: #012030;
+	float: left;
+}
+
+.textohome {
+	width: 100%;
+	float: left;
+	background-color: #595240;
+	font-family: 'Poppins', sans-serif;
+	color: #ffffff;
+	padding: 90px;
+}
+
+.textohome h2 {
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+.textohome h3 {
+	margin-bottom: 25px;
+	font-size: 26px;
+}
+
+.textohome p {
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+#lineaazul {
+	width: 100%;
+	height: 70px;
+	background-color: #012030;
+	float: left;
+}
+
+.nuestrostatuadores {
+	float: left;
+	width: 100%;
+	padding: 70px;
+}
+
+.nuestrostatuadores h2 {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.fotos-tatuadores {
+	float: left;
+	width: 24%;
+	margin-right: 1%;
+}
+
+footer {
+	width: 100%;
+	background-color: #8a8475;
+	margin-top: 30px;
+	color: #ffffff;
+	text-align: left;
+	padding: 40px 50px;
+	font-family: "Poppins", sans-serif;
+	font-size: 22px;
+	color: #010D2B;
+	font-weight: 600;
+	float: left;
+}
+
+
+
+.body-formulario{
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	background-image: url(../img/marmol.jpeg);
+}
+
+form{
+  background: #595240;
+  padding: 40px;
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+  margin-top: 70px;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 4px 4px black;
+  margin-bottom: 60px;
+
+}
+
+textarea{
+	height: 130px;
+}
+.divs-formulario{
+	margin-bottom: 15px;
+}
+
+.h2-formulario {
+	color: beige;
+}
+
+.h3-formulario{
+	margin-bottom: 20px;
+	color: #d1c2b4 ;
+}
+
+label {
+	color: beige;
+}
+
+.texto{
+	padding: 5px;
+	width: 60%;
+	background-color: beige;
+	border: solid 2px black;
+	border-radius: 7px;
+}
+
+.boton-enviar{
+	width: 20%;
+	padding: 8px 0px;
+	font-size: 18px;
+	background-color: #010D2B;
+	color: beige;
+	border: solid 2px beige;
+	border-radius: 7px;
+}
+
+.boton-enviar:hover{
+	background-color: lightslategrey;
+}
+
+.redondo{
+	accent-color: beige;
+}
+
+
+
+.miniaturas{
+	width: 200px;
+}
+
+#galeria{
+	background-image: url(../img/marmol.jpeg);
+	text-align: center;
+}
+
+#h1galeria {
+	text-align: left;
+	margin: 20px;
+	font-family: "Poppins", sans-serif;
+}

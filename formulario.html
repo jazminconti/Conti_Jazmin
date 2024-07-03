@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Registro </title>
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Fascinate+Inline&display=swap" rel="stylesheet">
+
+</head>
+<body class="body-formulario">
+
+
+  <header>
+      <a href="index.html"> 
+        <img src="img/logo-header.png" class="logo-header" alt="Logo">
+    </a>
+
+    <nav>
+      <ul class="botonera-horizontal">
+        <li><a href="">Tatuadores</a></li>
+        <li><a href="galeria.html">Trabajos</a></li>
+        <li><a href="">El estudio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <form method="post"> 
+    <h2 class="h2-formulario"> Bienvenido,</h2>
+    <h3 class="h3-formulario"> regístrate para pedir una cotización </h3>
+    <div class="divs-formulario">
+      <label for="nombre">Nombre </label>
+      <br>
+      <input class="texto" type="text" name="nombre">
+    </div>
+
+    <div class="divs-formulario">
+      <label for="apellido">Apellido </label>
+      <br>
+      <input class="texto" type="text" name="apellido">
+    </div>
+
+    <div class="divs-formulario">
+      <label for="mail">Mail </label>
+      <br>
+      <input class="texto" type="text" name="mail">
+    </div>
+
+    <div class="divs-formulario">
+      <label for="contrasena">Contraseña </label>
+      <br>
+      <input  class="texto" type="password" name="contrasena">
+    </div>
+
+    <div class="divs-formulario">
+      <label for="confirmar">Confirmar Contraseña </label>
+      <br>
+      <input class="texto" type="password" name="confirmar">
+    </div>
+
+    <div class="divs-formulario">
+      <label for="genero">Genero</label>
+      <br>
+      <select  class="texto" name="genero">
+        <option value="femenino">Femenino </option>
+        <option value="masculino">Masculino </option>
+        <option value="no especifico">Prefiero no especificar </option>
+      </select>
+    </div>
+
+    <div class="divs-formulario">
+      <label for="mayor">¿Mayor de 18 años?</label>
+      <br>
+      <input class="redondo" type="radio" name="mayor" value="si">
+      <label>Si</label>
+      <br>
+      <input class="redondo" type="radio" name="mayor" value="no">
+      <label>No</label>
+    </div>
+
+    <div class="divs-formulario">
+      <label for="contenido">¿En que parte del cuerpo te gustaría tatuarte?</label>
+      <br>
+      <input class="redondo" type="checkbox" name="contenido" value="moda">
+      <label>Tobillo</label>
+         <br>
+      <input class="redondo" type="checkbox" name="contenido" value="autos">
+      <label>Hombro</label>
+         <br>
+      <input class="redondo" type="checkbox" name="contenido" value="tecnologia">
+      <label>Brazo</label>
+         <br>
+      <input class="redondo" type="checkbox" name="contenido" value="comida">
+      <label>Espalda alta</label>
+         <br>
+      <input class="redondo" type="checkbox" name="contenido" value="deportes">
+      <label>Espalda baja</label>
+         <br>
+      <input class="redondo" type="checkbox" name="contenido" value="tendencias">
+      <label>Piernas</label>
+       <br>
+      <input class="redondo" type="checkbox" name="contenido" value="tendencias">
+      <label>Otro</label>
+    </div>
+
+    <div class="divs-formulario">
+      <label for="biografia">Contános un poco más de tu próximo tatuaje</label>
+      <br>
+      <textarea class="texto" name="biografia"></textarea>
+    </div>
+
+    <div class="divs-formulario">
+      <input class="redondo" type="checkbox" name="acepto">
+      <label for="acepto">Acepto Terminos y Condiciones</label>
+    </div>
+
+    <button class="boton-enviar" type="submit">Enviar</button>
+
+  </form>
+
+  <footer>
+		<p>JAZMÍN CONTI - PRODUCCIÓN DIGITAL II</p>
+	</footer>
+
+</body>
+</html>
